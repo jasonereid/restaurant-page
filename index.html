@@ -5,25 +5,132 @@
   <title>JR's BBQ and Brewhouse</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Long+Cang">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee+Spice">
   <style>
     body { padding-top: 50px;
-    background-image: url("/images/PSX_20240101_114601.jpg"); background-position: top; background-repeat: no-repeat; background-size: cover; }
+    background-image: url("/images/paper-3155438_640.jpg"); background-position: top; background-repeat: no-repeat; background-size: cover; }
+    h1, h3, h4, h5 {
+      font-family: 'Long Cang', 'Courier New', Courier, monospace;
+    }
+    h2 {
+      font-family: 'Bungee Spice', 'Courier New', Courier, monospace;
+    }
     .glow {
-        text-shadow: rgba(255,162,0,1) 0px 0px 37px;
+        text-shadow: rgba(255,162,0,1) 0px 0px 37px; 
+    }
+    #carousel-text {
+      text-shadow: rgb(0, 0, 0) 2px 0 5px;
     }
   </style>
 </head>
 <body>
-  <div class="container-lg mt-0" style="background-color: rgb(74, 9, 9)">
+  <div class="container-fluid" style="background-color: rgb(74, 9, 9)">
     <div class="jumbotron text-light shadow-lg p-3 mb-5 border border-dark border-1" style="background-image: url(images/Screenshot\ 2024-01-01\ 7.51.47\ PM.png);">
     
-      <h1 class="glow">Welcome to JR BBQ and Brewhouse!</h1>
-      <h3>Craft Beer, Bar-B-Cue, and more!</h3>
+      <h2 class="glow">Welcome to JR BBQ and Brewhouse!</h2>
+      <h1>Craft Beer, Bar-B-Cue, and more!</h1>
+      
     </div>
+  </div> 
+  <div class="container-md">
+    <!-- off canvas menu 1-->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">from the grill</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body" style="box-shadow: inset 3px 3px 80px #00000083;">
+        <div>
+          <h3>Just the Wings - $10</h3>
+           <p> Crispy traditional wings tossed in your choice of house-made Kurvball™ Whiskey glaze or Memphis Dry Rub.</p>
+
+           <h3>Smoked Wing Platter - $17</h3>
+           <p>Crispy traditional wings tossed in your choice of house-made Kurvball™ Whiskey glaze or Memphis Dry Rub, 2 sides, and a Corn Bread Muffin.</p>
+
+           <h3>Smoked Wing Duo - $19</h3>
+           <p> Crispy traditional wings tossed in your choice of house-made Kurvball™ Whiskey glaze or Memphis Dry Rub, plus choice of 1 meat, 2 sides, and a Corn Bread Muffin.</p>
+
+           <h3>Spicy Chicken Sandwich - $13</h3>
+           <p> a hand breaded crispy chicken breast on a buttery toasted bun with spicy Hell-Fire Pickles and drizzled with our secret Comeback Sauce</p>
+
+           <h3>Ultimate Burger - $13</h3>
+           <p> Slathered with Badass Sauce® and topped with melted Monterey Jack cheese and bacon.
+
+            Served with choice of 1 side and spicy pickles.</p>
+
+           <h3>Tomahawk Cowboy Ribeye - $60</h3>
+           <p> The most badass ribeye you will ever eat.</p>
+          
+        </div>
+      </div>
+    </div>
+<!-- off canvas menu 2-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample2" aria-labelledby="offcanvasExampleLabel2">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">craft brews - this week</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body" style="box-shadow: inset 3px 3px 80px #00000083;">
+    <div>
+      <h3>Alaskan Brewing Amber- $5</h3>
+       <p> ALTBIER - 5.3% ABV / on tap / ALASKA</p>
+
+       <h3>PB&J Mixtape- $9</h3>
+       <p> by the Xul Beer Company, 9% / 12OZ BOTTLE</p>
+
+       <h3>8th Wonder Cougar Paw - $7</h3>
+       <p> AMBER / RED ALE - 5.2% ABV / on tap / TEXAS</p>
+
+       <h3>Saint Arnold Cognac Barrel French Press 2022 - $20</h3>
+       <p> IMPERIAL PORTER - 9.3% ABV / 12OZ / TEXAS</p>
+
+       <h3>Our own ULTIMATE BADASS BEER - $11</h3>
+       <p> CHOCOLATE STOUT / 11% ABV / on tap everyday baby</p>
+
+       <h3>Goose Island Bourbon County Stout 2021 - $15</h3>
+       <p> IMPERIAL STOUT - 14% ABV / 16OZ / ILLINOIS</p>
+      
+    </div>
+  </div>
+</div>
+
+<!-- off canvas menu 3-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample3" aria-labelledby="offcanvasExampleLabel3">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">from the 'pit</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body" style="box-shadow: inset 3px 3px 80px #00000083;">
+    <div>
+      <h3>Just the Wings - $10</h3>
+       <p> Crispy traditional wings tossed in your choice of house-made Kurvball™ Whiskey glaze or Memphis Dry Rub.</p>
+
+       <h3>Smoked Wing Platter - $17</h3>
+       <p>Crispy traditional wings tossed in your choice of house-made Kurvball™ Whiskey glaze or Memphis Dry Rub, 2 sides, and a Corn Bread Muffin.</p>
+
+       <h3>Smoked Wing Duo - $19</h3>
+       <p> Crispy traditional wings tossed in your choice of house-made Kurvball™ Whiskey glaze or Memphis Dry Rub, plus choice of 1 meat, 2 sides, and a Corn Bread Muffin.</p>
+
+       <h3>Spicy Chicken Sandwich - $13</h3>
+       <p> a hand breaded crispy chicken breast on a buttery toasted bun with spicy Hell-Fire Pickles and drizzled with our secret Comeback Sauce</p>
+
+       <h3>Ultimate Burger - $13</h3>
+       <p> Slathered with Badass Sauce® and topped with melted Monterey Jack cheese and bacon.
+
+        Served with choice of 1 side and spicy pickles.</p>
+
+       <h3>Tomahawk Cowboy Ribeye - $60</h3>
+       <p> The most badass ribeye you will ever eat.</p>
+      
+    </div>
+  </div>
+</div>
+
     <div class="card-group">
-        <div class="card shadow-lg bg-light p-2"><img src="images/PSX_20240101_123349.jpg" width="90%" alt="grilled items" /><h2>From the Grill</h2><a href="#" class="btn btn-primary">Grill & Sides Menu</a></div>
-        <div class="card shadow-lg bg-light p-2"><img src="images/PSX_20240101_123846.jpg" width="90%" alt="craft beer" /><h2>Craft Beers</h2><a href="#" class="btn btn-primary">Beer Menu</a></div>
-        <div class="card shadow-lg bg-light p-2"><img src="images/PSX_20240101_125338.jpg" width="90%" alt="the bbq pit" /><h2>The BBQ Pit</h2><a href="#" class="btn btn-primary">BBQ Menu</a></div>
+        <div class="card shadow-lg bg-light p-2"><img src="images/PSX_20240101_123349.jpg" width="90%" alt="grilled items" /><h1>From the Grill</h1><a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Grill & Sides Menu</a></div>
+        <div class="card shadow-lg bg-light p-2"><img src="images/PSX_20240101_123846.jpg" width="90%" alt="craft beer" /><h1>Craft Beers</h1><a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample2" role="button" aria-controls="offcanvasExample2">Beer Menu</a></div>
+        <div class="card shadow-lg bg-light p-2"><img src="images/PSX_20240101_125338.jpg" width="90%" alt="the bbq pit" /><h1>The BBQ Pit</h1><a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample3" role="button" aria-controls="offcanvasExample3">BBQ Menu</a></div>
     </div>
     <div class="container-md border border-dark border-3 mt-5 bg-light">
         <h4 class="p-4">Welcome to JR's BBQ and Brewhouse</h4>
@@ -37,33 +144,34 @@
     </div>
   </div>
   <!-- image gallery -->
-  <div class="container-sm flex justify-content-center">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="row p-3 mt-2" style="background-color: rgba(74, 9, 9, 0.5); filter: drop-shadow(5px 5px 10px #000000);">
+    <div class="col-md-4"></div>
+    <div id="carouselExampleCaptions" class="carousel slide col-md-4" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner">
+        <div class="carousel-inner font-weight-bold">
           <div class="carousel-item active data-bs-interval='10000'">
-            <img src="images/Screenshot 2024-01-01 8.01.56 PM.png" class="d-block w-50" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+            <img src="images/Screenshot 2024-01-01 8.01.56 PM.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block" id="carousel-div">
+              <h5 id="carousel-text">Check our weekly rotating brews on draft</h5>
+              <p id="carousel-text">New this week! PB&J Mixtape by the Xul Beer Company</p>
             </div>
           </div>
           <div class="carousel-item data-bs-interval='10000'">
-            <img src="images/Screenshot 2024-01-01 8.02.11 PM.png" class="d-block w-50" alt="...">
+            <img src="images/Screenshot 2024-01-01 8.02.11 PM.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              <h5 id="carousel-text">Come in to see our brewing process</h5>
+              <p id="carousel-text">Saturdays at 10am we hold a brewing class using locally sourced malt and hops</p>
             </div>
           </div>
           <div class="carousel-item data-bs-interval='10000'">
-            <img src="images/Screenshot 2024-01-01 8.01.42 PM.png" class="d-block w-50" alt="...">
+            <img src="images/Screenshot 2024-01-01 8.01.42 PM.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              <h5 id="carousel-text">Don't miss our 'punkin ale!'</h5>
+              <p id="carousel-text">Availible now through October 31st. Get it while it lasts!</p>
             </div>
           </div>
         </div>
@@ -76,6 +184,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <div class="col-md-4"></div>
   </div>
     
 </body>
