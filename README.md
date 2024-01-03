@@ -14,7 +14,6 @@ It features a few of the fancier options easily implemented via Bootstrap, like 
 - Node.js
 - Express
 
-## tech setup
 
 # How to install and run
 
