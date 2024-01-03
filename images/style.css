@@ -1,0 +1,32 @@
+body {
+    background-image: url("/images/paper.png"); background-position: top; background-repeat: no-repeat; background-size: cover; }
+    h1, h3, h4, h5 {
+      font-family: 'Long Cang', 'Courier New', Courier, monospace;
+    }
+    h2 {
+      font-family: 'Bungee Spice', 'Courier New', Courier, monospace;
+      font-size: 3em;
+    }
+    .glow {
+        text-shadow: rgba(255,162,0,1) 0px 0px 37px;
+        font-size: 4em; 
+    }
+    .glow2 {
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #ffffff;
+        font-size: 3em;
+    }
+    #carousel-text {
+      text-shadow: rgb(0, 0, 0) 2px 0 5px;
+      font-size: xx-large;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    #signupform {
+        box-shadow: 5px 5px 15px #000000, inset 5px 5px 40px #000000;
+        background-color: rgb(150, 147, 144);
+    }
+
+    img {
+        box-shadow: 5px 5px 15px #000000, inset 5px 5px 40px #000000;
+    }
