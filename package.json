@@ -1,17 +1,16 @@
 {
-  "name": "lms",
+  "name": "bbq",
   "version": "1.0.0",
-  "description": "Library Management System",
+  "description": "JR BBQ and Brewhouse",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "node",
-    "mongodb",
-    "mongoose",
-    "lms",
-    "library"
+    "express",
+    "html",
+    "css"
   ],
   "author": "Jason Reid",
   "license": "ISC",
