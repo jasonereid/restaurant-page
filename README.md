@@ -35,6 +35,5 @@ see credits.html for some image attribution.
 
 # License
 
-
-
+ISC
 
